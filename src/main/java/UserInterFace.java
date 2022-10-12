@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class UserInterFace {
-    //Laver en switchcase som fortæller brugeren valgmulighederne
     private Adventure adventure;
     private Player player = new Player();
 
@@ -13,14 +12,15 @@ public class UserInterFace {
         Scanner sc = new Scanner(System.in);
         boolean running = true;
         System.out.println("""
-                Welcome to our text adventure!""");
+                Welcome to, can you become VIP?!""");
         System.out.println("""
                 -----------------------------------------------------------------------------------------
                 You are at the front of the club entrance. Your mission is to get in and get a VIP table.
-                The problem the is goons of bouncers wont let you in. So therefore your adventure begin now.
+                The problem is goons of bouncers wont let you in. So therefore your adventure begins now.
                 Get in and get that VIP table.
                 ------------------------------
-                Ingame controls: 
+                In game controls: 
+                
                 If you want to go the direction of north, east west and south, simply write go (any of the four directions)
                 Examples: go north, go south, go east go west
                 ---------------------------------------------
@@ -29,13 +29,13 @@ public class UserInterFace {
                 -----------------------------------------------------""");
 
 
+
         while (running) {
 
-            // Vi opretter en switch case, som fortæller om det muligt gå i den retning, ellers vil den returnere at vejen ikke er gyldig.
             System.out.println("Enter an command");
             String userInput = sc.nextLine().toLowerCase();
 
-            // Vi laver et arrway og opretter en split
+            // Array og splitter
 
             String[] userInputs = userInput.split(" ");
             String command = userInputs[0];
@@ -45,7 +45,7 @@ public class UserInterFace {
                 userChoise = userInputs[1];
             }
 
-
+            //switch case
             switch (command) {
                 case "go":
                     boolean succes = adventure.go(userChoise);
@@ -60,7 +60,7 @@ public class UserInterFace {
 
 
                 case "take":
-                    System.out.println("Please enter the name of the item you want to take");
+                    System.out.println("Enter item name");
                     String itemTake = sc.nextLine().toLowerCase();
                     if (adventure.getPlayer().takeItem(itemTake) == true) {
                         System.out.println("Item added to inventory");
@@ -69,7 +69,7 @@ public class UserInterFace {
                     }
                     break;
                 case "drop":
-                    System.out.println("Please enter the name of the item you want to drop");
+                    System.out.println("Enter item name, you wish to drop.");
                     //  String itemDrop = sc.nextLine().toLowerCase();
                     if (adventure.getPlayer().dropItem(userChoise) == true) {
                         System.out.println("Item removed from inventory");
@@ -97,9 +97,9 @@ public class UserInterFace {
                         ReturnMessage message = adventure.attack(userChoise);
                         switch (message) {
                             case NO_WEAPON_EQUIPPED ->
-                                    System.out.println("You can not attack without a weapon equipped");
+                                    System.out.println("No weapon equipped, therefore you cant attack");
                             case NO_ENEMY_FOUND_BY_THAT_NAME ->
-                                    System.out.println("No enemy like " + (userChoise) + " in the room");
+                                    System.out.println("No enemy called " + (userChoise) + " in this room");
                             case PLAYER_WEAPON_OUT_OF_AMMO -> System.out.println("You are out of ammo.");
                             case ENEMY_WEAPON_OUT_OF_AMMO -> System.out.println("Enemy is out of ammo");
                             case ENEMY_KILLED -> System.out.println("Enemy killed");

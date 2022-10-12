@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5b5fd15-69e1-47fb-bb0c-282d5d99deed" name="Changes" comment="Del 5 næsten færdig">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/UserInterFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInterFace.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665563543620</updated>
       <workItem from="1665563544918" duration="327000" />
-      <workItem from="1665563911564" duration="12940000" />
+      <workItem from="1665563911564" duration="15130000" />
     </task>
     <task id="LOCAL-00001" summary="Del 5 næsten færdig">
       <created>1665568466838</created>
@@ -122,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665579662460</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Del 5 næsten færdig">
+      <created>1665579863591</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665579863591</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
