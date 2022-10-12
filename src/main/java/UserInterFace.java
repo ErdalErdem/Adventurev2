@@ -13,7 +13,7 @@ public class UserInterFace {
         Scanner sc = new Scanner(System.in);
         boolean running = true;
         System.out.println("""
-                Welcome to our text adventure""");
+                Welcome to our text adventure!""");
         System.out.println("""
                 -----------------------------------------------------------------------------------------
                 You are at the front of the club entrance. Your mission is to get in and get a VIP table.
