@@ -110,7 +110,7 @@ public class UserInterFace {
                         } else {
                             System.out.println("You did not indicate the enemy to " + (userInput));
                         }
-                    }
+                    }mm
 
                     break;*/
 
