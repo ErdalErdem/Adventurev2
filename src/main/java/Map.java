@@ -47,6 +47,7 @@ public class Map {
 
         addItemToRoom(room4, "random key", "random key that leads to a random door");
 
+        addFoodToRoom(room2, "sucuk", "tasty food from turkey", +100 );
 
         addFoodToRoom(room1, "vodka", "vodka", -20);
         addFoodToRoom(room6,  "Beer", "Cold nice drink", 20);
@@ -54,8 +55,8 @@ public class Map {
         addFoodToRoom(room8, "pepsi", "Cold nice drink", 20);
 
 
-        addRangedWeapon(room1, "Shotgun", "An old double barreled shotgun", 100, 2);
-        addMeleeWeapon(room6, "Dagger", "A shiny antique dagger", 10);
+        addRangedWeapon(room1, "Sniper", "360 sniper", 100, 2);
+        addMeleeWeapon(room6, "bottle", "dirty bottle", 10);
 
 
         Enemy bouncer = addEnemy(room1, "bouncer", "A big ugly bouncer", 200, null);
