@@ -59,7 +59,7 @@ public class Map {
         addMeleeWeapon(room6, "bottle", "dirty bottle", 10);
 
 
-        Enemy bouncer = addEnemy(room1, "bouncer", "A big ugly bouncer", 200, null);
+        Enemy bouncer = addEnemy(room1, "bouncer", " big ugly bouncer", 200, null);
         addMeleeWeapon(bouncer, "Arms", "Strong arms", 50 );
 
        /* Enemy cowboy = addEnemy(room1, "Cowboy", "An evil looking cowboy in black", 100, null);

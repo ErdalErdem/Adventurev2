@@ -107,20 +107,20 @@ public class Room {
 
     public String toString() {
         String str = "";
-        str += "You are in the " + name + '\n';
+        str += "Location: " + name + '\n';
         str += description;
         if(items.isEmpty()){
-            str += "\nNothing else of interest in here.";
+            str += "\nNo items in this area.";
         } else {
             for (Item i: items) {
-                str += "\nThere is " + i.getDescription();
+                str += "\nThere is a " + i.getDescription();
             }
         }
         if(enemies.isEmpty()){
-            str += "\nNothing else of interest in here.";
+            str += "\nNo enemies in this area.";
         } else {
             for (Enemy e: enemies) {
-                str += "\nThere is " + e;
+                str += "\nThere is a " + e;
             }
         }
         return str;

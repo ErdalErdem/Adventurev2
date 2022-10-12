@@ -31,7 +31,7 @@ public class UserInterFace {
         while (running) {
 
             // Vi opretter en switch case, som fortæller om det muligt gå i den retning, ellers vil den returnere at vejen ikke er gyldig.
-            System.out.println(ConsoleColors.GREEN_BOLD_BRIGHT + "Enter an command");
+            System.out.println("Enter an command");
             String userInput = sc.nextLine().toLowerCase();
 
             // Vi laver et arrway og opretter en split
