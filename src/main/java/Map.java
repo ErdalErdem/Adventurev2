@@ -14,7 +14,7 @@ public class Map {
         room1 = new Room("starting area","Objective: Get in the club");
         room2 = new Room("room of the bouncer", "Objective: take your jacket off");
         room3 = new Room("Dance floor", "Objective: sneak into VIP");
-        room4 = new Room("The alley of bar", "Objective: go in the club. Side objective: sneak in from the back");
+        room4 = new Room("An alley outside the bar", "Objective: go in the club. Side objective: sneak in from the back");
         room5 = new Room("VIP section","Objective: You win the game");
         room6 = new Room("Bar","Objective: VIP section and dont forget to grab a drink");
         room7 = new Room("Random door", "Objective: VIP section");
