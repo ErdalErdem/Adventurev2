@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5b5fd15-69e1-47fb-bb0c-282d5d99deed" name="Changes" comment="Del 5 næsten færdig">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Adventure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Adventure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MeleeWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MeleeWeapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReturnMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReturnMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserInterFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInterFace.java" afterDir="false" />
-    </list>
+    <list default="true" id="b5b5fd15-69e1-47fb-bb0c-282d5d99deed" name="Changes" comment="Del 5 næsten færdig" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -69,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665563543620</updated>
       <workItem from="1665563544918" duration="327000" />
-      <workItem from="1665563911564" duration="9710000" />
+      <workItem from="1665563911564" duration="10509000" />
     </task>
     <task id="LOCAL-00001" summary="Del 5 næsten færdig">
       <created>1665568466838</created>
@@ -92,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665568572552</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Del 5 næsten færdig">
+      <created>1665576477200</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665576477201</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Del 5 næsten færdig">
+      <created>1665576530402</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665576530402</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
