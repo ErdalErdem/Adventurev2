@@ -25,7 +25,8 @@ public class UserInterFace {
                 Examples: go north, go south, go east go west
                 ---------------------------------------------
                 If need for awareness of surroundings write look
-                If you forget any of these actions simply write help""");
+                If you forget any of these actions simply write help
+                -----------------------------------------------------""");
 
 
         while (running) {
@@ -113,7 +114,7 @@ public class UserInterFace {
                     }
                 }
                 break;
-                case "Help":
+                case "help":
                     System.out.println("""
                                              
                                                                                  
