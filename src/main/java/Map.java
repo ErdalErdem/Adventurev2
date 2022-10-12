@@ -54,12 +54,12 @@ public class Map {
         addFoodToRoom(room8, "pepsi", "Cold nice drink", 20);
 
 
-        addRangedWeapon(room4, "Shotgun", "An old double barreled shotgun", 100, 2);
+        addRangedWeapon(room1, "Shotgun", "An old double barreled shotgun", 100, 2);
         addMeleeWeapon(room6, "Dagger", "A shiny antique dagger", 10);
 
 
-        Enemy troll = addEnemy(room1, "bouncer", "A big ugly bouncer", 200, null);
-        addMeleeWeapon(troll, "Arms", "Strong arms", 50 );
+        Enemy bouncer = addEnemy(room1, "bouncer", "A big ugly bouncer", 200, null);
+        addMeleeWeapon(bouncer, "Arms", "Strong arms", 50 );
 
        /* Enemy cowboy = addEnemy(room1, "Cowboy", "An evil looking cowboy in black", 100, null);
         addRangedWeapon(cowboy, "Revolver", "A black revolver", 25, 6);*/

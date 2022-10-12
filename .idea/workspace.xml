@@ -4,25 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5b5fd15-69e1-47fb-bb0c-282d5d99deed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adventure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MeleeWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RangedWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReturnMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UserInterFace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Weapon.java" afterDir="false" />
+    <list default="true" id="b5b5fd15-69e1-47fb-bb0c-282d5d99deed" name="Changes" comment="Del 5 næsten færdig">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Adventure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Adventure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MeleeWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MeleeWeapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReturnMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReturnMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UserInterFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInterFace.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -78,8 +69,30 @@
       <option name="presentableId" value="Default" />
       <updated>1665563543620</updated>
       <workItem from="1665563544918" duration="327000" />
-      <workItem from="1665563911564" duration="4530000" />
+      <workItem from="1665563911564" duration="9710000" />
     </task>
+    <task id="LOCAL-00001" summary="Del 5 næsten færdig">
+      <created>1665568466838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665568466838</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Del 5 næsten færdig">
+      <created>1665568494084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665568494085</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Del 5 næsten færdig">
+      <created>1665568572552</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665568572552</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,5 +108,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Del 5 næsten færdig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Del 5 næsten færdig" />
   </component>
 </project>

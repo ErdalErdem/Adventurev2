@@ -68,9 +68,7 @@ public class Adventure {
         return player.getEquippedWeapon();
     }
 
-    public ReturnMessage attack(String enemyName) {
+    public ReturnMessage attack(String enemyName){
         return player.attack(enemyName);
     }
-
-
 }
